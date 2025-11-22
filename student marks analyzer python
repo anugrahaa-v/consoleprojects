@@ -1,0 +1,16 @@
+marks = [85, 72, 90, 66, 78]
+
+average = sum(marks) / len(marks)
+highest = max(marks)
+lowest = min(marks)
+
+if average >= 50:
+    result = "Pass"
+else:
+    result = "Fail"
+
+print("Marks:", marks)
+print("Average:", average)
+print("Highest:", highest)
+print("Lowest:", lowest)
+print("Result:", result)
